@@ -24,7 +24,7 @@ const App: React.FC =() => {
 
   return (
     <div className="App">
-      <span className='heading'>2d0fi</span>
+      <span className='heading'>2dofi</span>
       <InputField todo={todo} setTodo={setTodo} handleInput={handleInputChange}/>
       <TodoList todos={todos} setTodos={setTodos}/>
     </div>
