@@ -73,7 +73,7 @@ const TodoItem: React.FC<Props> = ({ todo, todos, setTodos }) => {
           <span className="icon" onClick={() => handleDelete(todo.id)}>
             <AiFillDelete />
           </span>
-          <span className="icon" onClick={() => handleFinished(todo.id)}>
+          <span className="icon" onClick={() => handleFinished(todo.id)}> 
             <MdDone />
           </span>
         </div>
