@@ -21,7 +21,20 @@
   -webkit-text-fill-color: transparent;
   z-index: 1;
   text-align: center;
+  /* animation: neon 5s infinite; */
 }
+
+/* For Neon text flicker effect */
+/* @keyframes neon {
+  0%, 39%, 41%, 59%, 61%, 100% {
+    text-shadow: white 0 0 12px,
+    #ff3aad 0 0 24px,
+    #ff3aad 0 0 36px;
+  }
+  40%, 60% {
+    text-shadow: none;
+  }
+} */
 
 @media (max-width: 800px) {
   .app {
