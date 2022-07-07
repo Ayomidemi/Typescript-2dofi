@@ -47,17 +47,21 @@
   .container {
     width: 95%;
     display: flex;
-    margin-top: 10px;
-    justify-content: center;
-    /* align-items: flex-start; */
+    margin-top: 20px;
+    justify-content: space-between;
+    align-items: flex-start;
+    overflow: hidden;
   }
   
   .todos {
     border-radius: 5px;
     display: flex;
     flex-direction: column;
-    width: 47.5%;
+    justify-content: center;
+    width: 45%;
     padding: 15px;
+    background: linear-gradient(to right, #662D8C , #cf4983);
+
   }
   
   .dragactive {
@@ -69,7 +73,7 @@
   }
   
   .remove {
-    background-color: rgb(235, 103, 80);
+    background: linear-gradient(to right, #185a9d, #43cea2 );
   }
   
   .todos__heading {
@@ -129,9 +133,10 @@
     .container {
       width: 90%;
       flex-direction: column;
+      justify-content: center;
     }
     .todos {
       width: 95%;
-      margin-bottom: 10px;
+      margin-bottom: 20px;
     }
   }
